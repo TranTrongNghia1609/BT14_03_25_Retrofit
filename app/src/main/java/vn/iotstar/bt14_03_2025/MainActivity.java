@@ -2,6 +2,7 @@ package vn.iotstar.bt14_03_2025;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     CategoryAdapter categoryAdapter;
     List<Category> cateList;
     APIService apiService;
+    Button btn_recylerview, btn_AsynTask;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
